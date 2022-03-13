@@ -177,6 +177,7 @@ func main() {
 		configCommand,
 		statsCommand,
 		completionCommand,
+		runtimeCopyCommand,
 	}
 
 	runtimeEndpointUsage := fmt.Sprintf("Endpoint of CRI container runtime "+
